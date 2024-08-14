@@ -3,9 +3,228 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- reset css -->
+    <link rel="stylesheet" href="/assets/css/reset.css" />
+    <!-- styles css -->
+    <link rel="stylesheet" href="/assets/css/styles.css" />
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
     <title>Figma</title>
   </head>
+
   <body>
-    <h1>Hello HTML</h1>
+    <!-- header -->
+    <header class="header">
+      <div class="main-content">
+        <div class="body">
+          <img src="/assets/img/logo.svg" alt="Logo" class="logo" />
+          <nav class="navbar">
+            <ul>
+              <li class="Home"><a href="!#">Home</a></li>
+              <li><a href="!#">Courses</a></li>
+              <li><a href="!#">Pricing</a></li>
+              <li><a href="!#">Reviews</a></li>
+            </ul>
+          </nav>
+          <div class="action">
+            <a href="!#" class="btn btn__sign-up">Sign up</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- main -->
+    <main>
+      <!-- hero -->
+      <div class="hero">
+        <div class="body">
+          <div class="main-content">
+            <!-- left hero -->
+            <div class="left">
+              <img
+                src="/assets/img/picture/hero-img.jpg"
+                alt="hero"
+                class="img"
+              />
+              <div class="group">
+                <!-- item 1 -->
+                <div class="items">
+                  <div class="img img1">
+                    <img src="/assets/img/icon/des.svg" alt="" />
+                  </div>
+                  <div class="content">
+                    <p class="header">20 Courses</p>
+                    <strong><p class="body-content">UI/UX Design</p></strong>
+                  </div>
+                </div>
+                <!-- item 2 -->
+                <div class="items">
+                  <div class="img img2">
+                    <img src="/assets/img/icon/dev.svg" alt="" />
+                  </div>
+                  <div class="content">
+                    <p class="header">20 Courses</p>
+                    <strong><p class="body-content">Development</p></strong>
+                  </div>
+                </div>
+                <!-- item 3 -->
+                <div class="items">
+                  <div class="img img3">
+                    <img src="/assets/img/icon/marketing.svg" alt="" />
+                  </div>
+                  <div class="content">
+                    <p class="header">30 Courses</p>
+                    <strong><p class="body-content">Marketing</p></strong>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- right hero -->
+            <div class="right">
+              <h1 class="header">Learn without limits and spread knowledge.</h1>
+              <p class="desc">
+                Build new skills for that “this is my year” feeling with
+                courses, certificates, and degrees from world-class universities
+                and companies.
+              </p>
+              <div class="group__btn">
+                <div class="btn btn__see-courses">See Courses</div>
+                <div class="watch-video">
+                  <div class="play">
+                    <img src="/assets/img/icon/play.svg" alt="" />
+                  </div>
+                  <div class="content-play">Watch Video</div>
+                </div>
+              </div>
+              <div class="group__content">
+                <p class="desc">Recent engagement</p>
+                <p class="desc">
+                  <strong>50K</strong>
+                  Students
+                  <strong>70+</strong>
+                  Courses
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- popular -->
+      <div class="popular">
+        <div class="main-content">
+          <!-- popular top -->
+          <div class="popular__top">
+            <div class="title__popular">
+              <h2 class="heading-lv2">Our popular courses</h2>
+              <p class="desc">
+                Build new skills with new trendy courses and shine for the next
+                future career.
+              </p>
+            </div>
+            <div class="navigation">
+              <div class="arrow">
+                <img
+                  src="/assets/img/icon/arrow_back_ios_16dp_5F6368_FILL0_wght400_GRAD0_opsz20.svg"
+                  alt=""
+                  class="img"
+                />
+              </div>
+              <div class="arrow">
+                <img
+                  src="/assets/img/icon/arrow_forward_ios_16dp_5F6368_FILL0_wght400_GRAD0_opsz20.svg"
+                  alt=""
+                  class="img"
+                />
+              </div>
+            </div>
+          </div>
+
+          <!-- popular body -->
+          <div class="popular__body">
+            <!-- course 1 -->
+            <div class="course">
+              <img
+                class="thumb"
+                src="/assets/img/picture/course-1.jpg"
+                alt=""
+              />
+              <div class="popular__content">
+                <div class="header">
+                  <strong>Basic web design</strong>
+                  <div class="rate">
+                    4.5
+                    <img class="star" src="/assets/img/icon/star.svg" alt="" />
+                  </div>
+                </div>
+                <p class="desc">
+                  Get the best course, gain knowledge and shine for your future
+                  career.
+                </p>
+                <div class="footer">
+                  <strong>$120.75</strong>
+                  <div class="btn btn__booknow">Book Now</div>
+                </div>
+              </div>
+            </div>
+            <!-- course 2-->
+            <div class="course">
+              <img
+                class="thumb"
+                src="/assets/img/picture/course-2.jpg"
+                alt=""
+              />
+              <div class="popular__content">
+                <div class="header">
+                  <strong>Basic web design</strong>
+                  <div class="rate">
+                    4.5
+                    <img class="star" src="/assets/img/icon/star.svg" alt="" />
+                  </div>
+                </div>
+                <p class="desc">
+                  Get the best course, gain knowledge and shine for your future
+                  career.
+                </p>
+                <div class="footer">
+                  <strong>$120.75</strong>
+                  <div class="btn btn__booknow">Book Now</div>
+                </div>
+              </div>
+            </div>
+            <!-- course 3 -->
+            <div class="course">
+              <img
+                class="thumb"
+                src="/assets/img/picture/course-3.jpg"
+                alt=""
+              />
+              <div class="popular__content">
+                <div class="header">
+                  <strong>Basic web design</strong>
+                  <div class="rate">
+                    4.5
+                    <img class="star" src="/assets/img/icon/star.svg" alt="" />
+                  </div>
+                </div>
+                <p class="desc">
+                  Get the best course, gain knowledge and shine for your future
+                  career.
+                </p>
+                <div class="footer">
+                  <strong>$120.75</strong>
+                  <div class="btn btn__booknow">Book Now</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
   </body>
 </html>
